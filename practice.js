@@ -81,11 +81,11 @@ let tempInCelcius = 32;
 console.log(tempInCelcius);
 
 // 2. Convert it to fahrenheit and store that in a new variable.
-let tempConverted = 89.6;
-console.log((32 / 5) * 9 + 32);
+let tempConverted = (tempInCelcius / 5) * 9 + 32;
+console.log(tempConverted);
 
 // 3. Output to console.log() in the format "NN°C is NN°F".
-console.log("32℃" !== "89.6℉");
+console.log(tempInCelcius + "is" + tempConverted);
 
 // 4. Now store a fahrenheit temperature into a variable.
 let tempInFahrenheit = 75;
