@@ -55,8 +55,8 @@ console.log(futureYear);
 
 // 3. Calculate your 2 possible ages for that year based on the stored values.
 // For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
-let possibleAge = 60 || possibleAge === 61;
-console.log(possibleAge);
+let possibleAge = 60;
+console.log(futureYear - birthYear);
 
 // 4. Create a variable called message which describes the result.
 // "I will be either NN or NN in YYYY", substituting the values.
@@ -85,7 +85,7 @@ let tempConverted = (tempInCelcius / 5) * 9 + 32;
 console.log(tempConverted);
 
 // 3. Output to console.log() in the format "NN°C is NN°F".
-console.log(tempInCelcius + "is" + tempConverted);
+console.log(tempInCelcius + " is " + tempConverted);
 
 // 4. Now store a fahrenheit temperature into a variable.
 let tempInFahrenheit = 75;
@@ -96,4 +96,4 @@ tempConverted = 23.8;
 console.log(tempConverted);
 
 // 6. Output to console.log() in the format "NN°F is NN°C."
-console.log("75℉" !== "23.8℃");
+console.log(tempInFahrenheit + " is " + tempInCelcius);
