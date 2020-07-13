@@ -11,12 +11,14 @@ Remember to use descriptive variable names!
 */
 
 // 1. Store your current age into a variable.
-// Hint: let age = ...;
+let age = 30;
 
 // 2. Store a maximum age into a variable.
+let ageMax = 30 > 20;
 
 // 3. Store an estimated amount per day (as a number).
 // For example 1, for 1 bag of chips per day.
+let perDay = 3;
 
 // 4. Calculate how many you would eat total for the rest of your life.
 // Store the result in a variable.
