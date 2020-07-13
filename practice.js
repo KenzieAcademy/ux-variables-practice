@@ -14,7 +14,7 @@ Remember to use descriptive variable names!
 let age = 30;
 
 // 2. Store a maximum age into a variable.
-let ageMax = 30 > 20;
+let ageMax = 50;
 
 // 3. Store an estimated amount per day (as a number).
 // For example 1, for 1 bag of chips per day.
@@ -37,8 +37,10 @@ your age given your birth year and a year in the future.
 */
 
 // 1. Store your birth year in a variable.
+let birthYear = 1990;
 
 // 2. Store a future year in a variable.
+let futureYear = 2060;
 
 // 3. Calculate your 2 possible ages for that year based on the stored values.
 // For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
@@ -60,8 +62,10 @@ Fahrenheit to Celcius:  Deduct 32, then multiply by 5, then divide by 9
 
 // 1. Store a celsius temperature into a variable.
 // Hint: let tempInCelcius = 32;
+let tempCelcius = 40;
 
 // 2. Convert it to fahrenheit and store that in a new variable.
+let tempFarenheit = 104;
 
 // 3. Output to console.log() in the format "NN°C is NN°F".
 
