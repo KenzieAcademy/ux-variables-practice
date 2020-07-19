@@ -27,12 +27,12 @@ Remember to use descriptive variable names!
 
 // 6. console.log() your message.
 
-let age = 27
-let maxAge = 100
-let snackPerDay = 3
-let snackPerYear = (365 * snackPerDay)
-let message = ("If you eat " + snackPerDay + " snacks everyday until you turn " + maxAge + ", then you will have eaten " + ((maxAge-age)*snackPerYear) + " snacks!")
-console.log (message)
+let age = 27;
+let maxAge = 100;
+let snackPerDay = 3;
+let snackPerYear = (365 * snackPerDay);
+let snackEstimate = ("If you eat " + snackPerDay + " snacks everyday until you turn " + maxAge + ", then you will have eaten " + ((maxAge-age)*snackPerYear) + " snacks!");
+console.log (snackEstimate);
 
 /*
 Exercise Two - Calculating your future age.
@@ -52,6 +52,13 @@ your age given your birth year and a year in the future.
 // "I will be either NN or NN in YYYY", substituting the values.
 
 // 5. console.log() your message.
+
+let birthYear = 1993;
+let futureYear = 2050;
+let beforeBirthday = ((futureYear - birthYear) - 1);
+let afterBirthday = (futureYear - birthYear);
+let ageEstimate = ("In " + futureYear + " I'll be " + afterBirthday + ", unless it's before my birthday, then I'll be " + beforeBirthday + ".");
+console.log (ageEstimate);
 
 /*
 Exercise Three - Temperature Converter
@@ -75,3 +82,10 @@ Fahrenheit to Celcius:  Deduct 32, then multiply by 5, then divide by 9
 // 5. Convert it to celsius  and store that in a new variable.
 
 // 6. Output to console.log() in the format "NN°F is NN°C."
+
+let tempCelcius = 40;
+let convertFahrenheit = ((tempCelcius / 5) * 9 ) + 32;
+let tempFahrenheit = 40;
+let convertCelcius = ((tempFahrenheit - 32) * 5) / 9;
+let tempMessage = (tempCelcius + "°C is " + convertFahrenheit + "°F, likewise " + tempFahrenheit + "°F is " + convertCelcius + "°C.");
+console.log (tempMessage);
