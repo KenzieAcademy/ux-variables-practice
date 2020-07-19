@@ -27,6 +27,13 @@ Remember to use descriptive variable names!
 
 // 6. console.log() your message.
 
+let age = 27
+let maxAge = 100
+let snackPerDay = 3
+let snackPerYear = (365 * snackPerDay)
+let message = ("If you eat " + snackPerDay + " snacks everyday until you turn " + maxAge + ", then you will have eaten " + ((maxAge-age)*snackPerYear) + " snacks!")
+console.log (message)
+
 /*
 Exercise Two - Calculating your future age.
 
