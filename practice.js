@@ -71,13 +71,17 @@ Fahrenheit to Celcius:  Deduct 32, then multiply by 5, then divide by 9
 
 // 1. Store a celsius temperature into a variable.
 // Hint: let tempInCelcius = 32;
-
+let tempInCelcius = 32;
 // 2. Convert it to fahrenheit and store that in a new variable.
-
+let tempFarenheit = ((tempInCelcius / 5) * 9 ) + 32;
 // 3. Output to console.log() in the format "NN°C is NN°F".
+console.log(tempInCelcius + " °C " + " is " + tempFarenheit + " °F " )
 
 // 4. Now store a fahrenheit temperature into a variable.
+let tempInFarenheit = 32;    
 
 // 5. Convert it to celsius  and store that in a new variable.
 
+let tempCelsius = ((tempInFarenheit -32 ) * 5 ) /9;
 // 6. Output to console.log() in the format "NN°F is NN°C."
+console.log(tempInFarenheit + " °F" + " is " + tempCelsius + "°C ")
